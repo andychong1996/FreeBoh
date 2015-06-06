@@ -23,7 +23,7 @@
                 android:layout_height="fill_parent"
                 android:id="@+id/imageView"
                 android:layout_gravity="center"
-                android:src="@mipmap/sampleAvy"/>
+                android:src="@mipmap/sample_avy"/>
         </FrameLayout>
 
         <LinearLayout
@@ -122,7 +122,7 @@
             android:layout_height="match_parent"
             android:id="@+id/imageButton5"
             android:background="#ffff5e00"
-            android:src="@mipmap/myTabico"
+            android:src="@mipmap/my_tab_ico"
             android:layout_row="0"
             android:layout_column="0"/>
 
@@ -133,7 +133,7 @@
             android:layout_row="0"
             android:layout_column="1"
             android:background="#ffff9800"
-            android:src="@mipmap/friendsTabico"/>
+            android:src="@mipmap/friends_tab_ico"/>
 
         <ImageButton
             android:layout_width="120dp"
@@ -141,7 +141,7 @@
             android:id="@+id/imageButton7"
             android:layout_row="0"
             android:layout_column="2"
-            android:src="@mipmap/settingsTabico"
+            android:src="@mipmap/settings_tab_ico"
             android:background="#ffff9809"/>
     </GridLayout>
 
