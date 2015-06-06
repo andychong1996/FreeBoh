@@ -155,14 +155,14 @@
                 <ImageButton
                     android:layout_width="140pt"
                     android:layout_height="25pt"
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/slot1"
                     android:layout_gravity="center_horizontal"
                     android:background="@mipmap/slot2b"/>
 
                 <ImageButton
                     android:layout_width="140pt"
                     android:layout_height="25pt"
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/slot2"
                     android:layout_gravity="center_horizontal"
                     android:background="@mipmap/slot3b"
                     android:layout_marginTop="2pt"/>
@@ -170,7 +170,7 @@
                 <ImageButton
                     android:layout_width="140pt"
                     android:layout_height="25pt"
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/slot3"
                     android:layout_gravity="center_horizontal"
                     android:background="@mipmap/slot4b"
                     android:layout_marginTop="2pt"/>
