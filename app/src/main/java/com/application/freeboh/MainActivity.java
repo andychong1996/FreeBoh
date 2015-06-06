@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, MyTab.class);
-                startActivity(intent);
+                MainActivity.this.startActivity(intent);
             }
         });
 

@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MyTab" />
+        <activity android:name=".Register" />
+        <activity android:name=".SettingsTab" />
+        <activity android:name=".YourTab" />
     </application>
 
 </manifest>
