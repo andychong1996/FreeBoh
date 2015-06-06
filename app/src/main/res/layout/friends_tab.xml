@@ -13,28 +13,41 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#ffff9800">
+            android:background="#ffff9800"
+            android:layout_marginTop="5pt"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            android:padding="10px">
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <EditText
-                    android:layout_width="250dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/editText"
-                    android:editable="false"
-                    android:enabled="false"
-                    android:hint="Search"
-                    android:background="#ffffffff" />
+                <GridLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:rowCount="1">
 
-                <EditText
-                    android:layout_width="130dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/editText2"
-                    android:background="#ffffffff"
-                    android:hint="Add Friend" />
+                    <EditText
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText"
+                        android:editable="false"
+                        android:enabled="false"
+                        android:hint="Search"
+                        android:background="#ffffffff" />
+
+                    <EditText
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText2"
+                        android:background="#ffffffff"
+                        android:hint="Add Friend"
+                        android:layout_marginLeft="10dp"/>
+                </GridLayout>
 
             </LinearLayout>
 
@@ -55,28 +68,32 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:weightSum="1">
 
                 <Button
                     style="?android:attr/buttonStyleSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="All"
-                    android:id="@+id/button" />
+                    android:id="@+id/button"
+                    android:layout_weight="0.20"/>
 
                 <Button
                     style="?android:attr/buttonStyleSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Free"
-                    android:id="@+id/button2" />
+                    android:id="@+id/button2"
+                    android:layout_weight="0.20"/>
 
                 <Button
                     style="?android:attr/buttonStyleSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Busy"
-                    android:id="@+id/button3" />
+                    android:id="@+id/button3"
+                    android:layout_weight="0.20"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -86,10 +103,12 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="352dp"
-        android:layout_gravity="center_horizontal"
         android:columnCount="3"
         android:rowCount="1"
-        android:layout_weight="0.60">
+        android:layout_weight="0.60"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10px"
+        android:paddingLeft="7pt">
 
         <LinearLayout
             android:orientation="vertical"
@@ -101,7 +120,8 @@
                 android:layout_height="100dp"
                 android:id="@+id/imageView"
                 android:adjustViewBounds="false"
-                android:src="@mipmap/sampleavy1" />
+                android:src="@mipmap/sampleavy1"
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -109,7 +129,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Clarence"
                 android:id="@+id/textView2"
-                android:autoText="false" />
+                android:autoText="false"
+                android:layout_gravity="center_horizontal"/>
         </LinearLayout>
 
         <LinearLayout
@@ -121,14 +142,16 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:id="@+id/imageView2"
-                android:src="@mipmap/sampleavy2" />
+                android:src="@mipmap/sampleavy2"
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Christopher"
-                android:id="@+id/textView3" />
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"/>
         </LinearLayout>
 
         <LinearLayout
@@ -140,51 +163,58 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:id="@+id/imageView3"
-                android:src="@mipmap/sampleavy3" />
+                android:src="@mipmap/sampleavy3"
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Vincente"
-                android:id="@+id/textView4" />
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"/>
         </LinearLayout>
     </GridLayout>
 
     <GridLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_gravity="center_horizontal|bottom"
         android:columnCount="3"
         android:rowCount="1"
-        android:background="#ffff9800" >
+        android:background="#ffff9800"
+        >
 
         <ImageButton
-            android:layout_width="120dp"
+            android:layout_width="128dp"
             android:layout_height="match_parent"
             android:id="@+id/myTab"
-            android:background="#ffff9800"
+            android:background="#ffff5e00"
             android:src="@mipmap/my_tab_ico"
+            android:scaleType="fitCenter"
             android:layout_row="0"
-            android:layout_column="0" />
+            android:layout_column="0"
+            />
 
         <ImageButton
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
             android:id="@+id/yourTab"
             android:layout_row="0"
             android:layout_column="1"
-            android:background="#ffff5e00"
-            android:src="@mipmap/friends_tab_ico" />
+            android:background="#ffff9800"
+            android:src="@mipmap/friends_tab_ico"
+            android:scaleType="fitCenter" />
 
         <ImageButton
-            android:layout_width="120dp"
+            android:layout_width="128dp"
             android:layout_height="match_parent"
             android:id="@+id/settingsTab"
             android:layout_row="0"
             android:layout_column="2"
             android:src="@mipmap/settings_tab_ico"
-            android:background="#ffff9809" />
+            android:scaleType="fitCenter"
+            android:background="#ffff9809"/>
     </GridLayout>
 
 </LinearLayout>
