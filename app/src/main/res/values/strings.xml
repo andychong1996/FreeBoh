@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="user_free">free</string>
+    <string name="user_busy">busy</string>
 </resources>

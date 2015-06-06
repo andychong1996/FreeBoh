@@ -3,20 +3,25 @@
     android:layout_height="fill_parent"
              tools:context=".MainActivity"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:weightSum="1"
+             android:padding="0px">
 
     <GridLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
         android:rowCount="1"
         android:columnCount="3"
-        android:layout_marginLeft="3pt"
-        android:layout_marginRight="3pt"
-        android:layout_marginTop="5dp">
+        android:background="@mipmap/profile_bg"
+        android:paddingTop="10px"
+        android:paddingLeft="10pt"
+        android:paddingRight="10pt"
+        android:paddingBottom="10px">
 
         <FrameLayout
             android:layout_width="109dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -28,21 +33,38 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="117dp"
-            android:layout_height="match_parent">
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:weightSum="1">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Username"
+                android:text="Japorized"
                 android:id="@+id/textView"/>
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="133dp"
                 android:layout_height="wrap_content"
-                android:text="is now free"
-                android:id="@+id/textView2"/>
+                android:layout_weight="0.51">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="is now "
+                    android:id="@+id/textView7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_free"
+                    android:id="@+id/user_status"/>
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="121dp"
@@ -52,6 +74,14 @@
                 android:id="@+id/textView3"
                 android:layout_marginTop="10pt"/>
         </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:background="@mipmap/allfree"/>
     </GridLayout>
 
     <GridLayout
@@ -89,52 +119,63 @@
         android:layout_height="313dp"
         android:layout_marginTop="70pt">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Current"
-            android:id="@+id/textView4"
-            android:layout_gravity="center_horizontal"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <ImageButton
-            android:layout_width="140pt"
-            android:layout_height="25pt"
-            android:id="@+id/imageButton"
-            android:layout_gravity="center_horizontal"
-            android:background="@mipmap/slot1f"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Upcoming"
-            android:id="@+id/textView5"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Current"
+                    android:id="@+id/textView4"
+                    android:layout_gravity="center_horizontal"/>
 
-        <ImageButton
-            android:layout_width="140pt"
-            android:layout_height="25pt"
-            android:id="@+id/imageButton2"
-            android:layout_gravity="center_horizontal"
-            android:background="@mipmap/slot2b"/>
+                <ImageButton
+                    android:layout_width="140pt"
+                    android:layout_height="25pt"
+                    android:id="@+id/curSlot"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/slot1f"/>
 
-        <ImageButton
-            android:layout_width="140pt"
-            android:layout_height="25pt"
-            android:id="@+id/imageButton3"
-            android:layout_gravity="center_horizontal"
-            android:background="@mipmap/slot3b"
-            android:layout_marginTop="2pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Upcoming"
+                    android:id="@+id/textView5"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5pt"/>
 
-        <ImageButton
-            android:layout_width="140pt"
-            android:layout_height="25pt"
-            android:id="@+id/imageButton4"
-            android:layout_gravity="center_horizontal"
-            android:background="@mipmap/slot4b"
-            android:layout_marginTop="2pt"/>
+                <ImageButton
+                    android:layout_width="140pt"
+                    android:layout_height="25pt"
+                    android:id="@+id/imageButton2"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/slot2b"/>
+
+                <ImageButton
+                    android:layout_width="140pt"
+                    android:layout_height="25pt"
+                    android:id="@+id/imageButton3"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/slot3b"
+                    android:layout_marginTop="2pt"/>
+
+                <ImageButton
+                    android:layout_width="140pt"
+                    android:layout_height="25pt"
+                    android:id="@+id/imageButton4"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@mipmap/slot4b"
+                    android:layout_marginTop="2pt"/>
+            </LinearLayout>
+        </GridLayout>
 
     </LinearLayout>
 
