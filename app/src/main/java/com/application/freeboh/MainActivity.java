@@ -3,12 +3,12 @@ package com.application.freeboh;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 
 public class MainActivity extends Activity {
@@ -39,6 +39,18 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        // adding slot toggle functionality
+        ImageButton[] slots = {
+                (ImageButton)findViewById(R.id.curSlot),
+                (ImageButton)findViewById(R.id.slot1),
+                (ImageButton)findViewById(R.id.slot2),
+                (ImageButton)findViewById(R.id.slot3)
+        };
+
+        
+
+
     }
 
     @Override
