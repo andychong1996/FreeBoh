@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
-            android:id="@+id/Registerbutton"
+            android:id="@+id/registerAfter"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0"
             android:background="#fffd6206"

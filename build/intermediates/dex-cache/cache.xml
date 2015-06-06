@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/JohnsonNg/Documents/AndroidProjs/FreeBoh/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/JohnsonNg/Documents/AndroidProjs/FreeBoh/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-dc773da1938af384633c0d29f7a7b4b51dcde028.jar" />
-    </item>
-    <item
-        jar="/Users/JohnsonNg/Documents/AndroidProjs/FreeBoh/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/JohnsonNg/Documents/AndroidProjs/FreeBoh/app/build/intermediates/pre-dexed/debug/classes-f6c118953209782fa366b35f42856ac459ab121b.jar" />
-    </item>
-    <item
-        jar="/Users/JohnsonNg/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/JohnsonNg/Documents/AndroidProjs/FreeBoh/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-799eb0f0023a49f9d0152d47cc3ab1354616afa2.jar" />
-    </item>
-    <item
-        jar="/Users/JohnsonNg/Documents/AndroidProjs/FreeBoh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="C:\Users\Marcus\Desktop\FreeBoh\FreeBoh\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/JohnsonNg/Documents/AndroidProjs/FreeBoh/app/build/intermediates/pre-dexed/debug/classes-0d496f9b0c2ee89bb9aa6c8185bb36e5bb3840b5.jar" />
+        <dex dex="C:\Users\Marcus\Desktop\FreeBoh\FreeBoh\app\build\intermediates\pre-dexed\debug\classes-c8efb5bf66fd843b9fb7c1b7d8d0e3d7c22e625c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Marcus\Desktop\FreeBoh\FreeBoh\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-9f0a8d9898581132157253730f79b4c7ed1b7dad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcus\Desktop\FreeBoh\FreeBoh\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Marcus\Desktop\FreeBoh\FreeBoh\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-39a0f71c73829d5e739c4ec489ebf37d763c87ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marcus\Desktop\FreeBoh\FreeBoh\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Marcus\Desktop\FreeBoh\FreeBoh\app\build\intermediates\pre-dexed\debug\classes-4b2c4ee212912e8bed662656531ab28fd8da88e8.jar" />
     </item>
 
 </items>
