@@ -54,11 +54,40 @@
         </LinearLayout>
     </GridLayout>
 
+    <GridLayout
+        android:layout_width="140pt"
+        android:layout_height="42dp"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:layout_marginTop="55pt"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@mipmap/cal_ico"/>
+
+        <TextView
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Today"
+            android:id="@+id/textView6"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:textSize="10pt"
+            android:layout_marginLeft="10px"/>
+    </GridLayout>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="313dp"
-        android:layout_marginTop="50pt">
+        android:layout_marginTop="70pt">
 
         <TextView
             android:layout_width="wrap_content"
@@ -111,37 +140,42 @@
 
     <GridLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_gravity="center_horizontal|bottom"
         android:columnCount="3"
         android:rowCount="1"
-        android:background="#ffff9800">
+        android:background="#ffff9800"
+        >
 
         <ImageButton
-            android:layout_width="120dp"
+            android:layout_width="128dp"
             android:layout_height="match_parent"
             android:id="@+id/myTab"
             android:background="#ffff5e00"
             android:src="@mipmap/my_tab_ico"
+            android:scaleType="fitCenter"
             android:layout_row="0"
-            android:layout_column="0"/>
+            android:layout_column="0"
+            />
 
         <ImageButton
-            android:layout_width="120dp"
+            android:layout_width="128dp"
             android:layout_height="match_parent"
             android:id="@+id/yourTab"
             android:layout_row="0"
             android:layout_column="1"
             android:background="#ffff9800"
-            android:src="@mipmap/friends_tab_ico"/>
+            android:src="@mipmap/friends_tab_ico"
+            android:scaleType="fitCenter" />
 
         <ImageButton
-            android:layout_width="120dp"
+            android:layout_width="128dp"
             android:layout_height="match_parent"
             android:id="@+id/settingsTab"
             android:layout_row="0"
             android:layout_column="2"
             android:src="@mipmap/settings_tab_ico"
+            android:scaleType="fitCenter"
             android:background="#ffff9809"/>
     </GridLayout>
 

@@ -38,9 +38,14 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="30dp"
                 android:editable="true"
-                android:hint="    Username"
+                android:hint="Username"
                 android:background="#fffdfdfe"
-                android:layout_weight="0" />
+                android:layout_weight="0"
+                android:topRightRadius="10pt"
+                android:topLeftRadius="10pt"
+                android:bottomRightRadius="10pt"
+                android:bottomLeftRadius="10pt"
+                android:paddingLeft="20px"/>
 
             <EditText
                 android:layout_width="300dp"
@@ -50,9 +55,14 @@
                 android:id="@+id/DisplayNameText"
                 android:layout_gravity="center_horizontal"
                 android:background="#ffffffff"
-                android:hint="    Display Name"
+                android:hint="Display Name"
                 android:editable="true"
-                android:layout_marginTop="10dp" />
+                android:layout_marginTop="10dp"
+                android:topRightRadius="10pt"
+                android:topLeftRadius="10pt"
+                android:bottomRightRadius="10pt"
+                android:bottomLeftRadius="10pt"
+                android:paddingLeft="20px"/>
 
             <EditText
                 android:layout_width="300dp"
@@ -60,10 +70,15 @@
                 android:inputType="textEmailAddress"
                 android:ems="10"
                 android:id="@+id/editText"
-                android:hint="    Email"
+                android:hint="Email"
                 android:background="#ffffffff"
                 android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:topRightRadius="10pt"
+                android:topLeftRadius="10pt"
+                android:bottomRightRadius="10pt"
+                android:bottomLeftRadius="10pt"
+                android:paddingLeft="20px"/>
 
             <EditText
                 android:layout_width="300dp"
@@ -72,14 +87,17 @@
                 android:ems="10"
                 android:id="@+id/PasswordText"
                 android:layout_marginTop="10dp"
-                android:paddingLeft="10pt"
-                android:paddingRight="10pt"
+                android:paddingLeft="20px"
                 android:clickable="false"
                 android:autoText="false"
                 android:layout_gravity="center_horizontal"
                 android:hint="Password"
                 android:password="true"
-                android:background="#fffdfdfe" />
+                android:background="#fffdfdfe"
+                android:topRightRadius="10pt"
+                android:topLeftRadius="10pt"
+                android:bottomRightRadius="10pt"
+                android:bottomLeftRadius="10pt" />
 
             <EditText
                 android:layout_width="300dp"
@@ -88,9 +106,14 @@
                 android:ems="10"
                 android:id="@+id/editText2"
                 android:background="#ffffffff"
-                android:hint="  Confirm Password"
+                android:hint="Confirm Password"
                 android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:topRightRadius="10pt"
+                android:topLeftRadius="10pt"
+                android:bottomRightRadius="10pt"
+                android:bottomLeftRadius="10pt"
+                android:paddingLeft="20px"/>
 
         </LinearLayout>
 
