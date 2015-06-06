@@ -10,8 +10,9 @@
         android:layout_height="100dp"
         android:rowCount="1"
         android:columnCount="3"
-        android:layout_marginLeft="2pt"
-        android:layout_marginRight="2pt">
+        android:layout_marginLeft="3pt"
+        android:layout_marginRight="3pt"
+        android:layout_marginTop="5dp">
 
         <FrameLayout
             android:layout_width="109dp"
@@ -110,27 +111,38 @@
 
     <GridLayout
         android:layout_width="fill_parent"
-        android:layout_height="77dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|bottom"
-        android:columnCount="5"
+        android:columnCount="3"
         android:rowCount="1"
         android:background="#ffff9800">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
             android:id="@+id/imageButton5"
-            android:background="#ffff9800"
+            android:background="#ffff5e00"
             android:src="@mipmap/myTabico"
             android:layout_row="0"
-            android:layout_column="1"/>
+            android:layout_column="0"/>
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
             android:id="@+id/imageButton6"
             android:layout_row="0"
-            android:layout_column="3"/>
+            android:layout_column="1"
+            android:background="#ffff9800"
+            android:src="@mipmap/friendsTabico"/>
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton7"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@mipmap/settingsTabico"
+            android:background="#ffff9809"/>
     </GridLayout>
 
 </FrameLayout>
