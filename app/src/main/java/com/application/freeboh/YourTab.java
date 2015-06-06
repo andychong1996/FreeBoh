@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 /**
@@ -15,6 +16,11 @@ public class YourTab extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.friends_tab);
+
+        final View FREE, BUSY, ALL;
+        FREE = (View)findViewById(R.id.displayFree);
+        BUSY = (View)findViewById(R.id.displayBusy);
+        ALL = (View)findViewById(R.id.displayAll);
 
         ImageButton myTabButton, settingsButton;
 
@@ -35,6 +41,38 @@ public class YourTab extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(context, SettingsTab.class);
                 startActivity(intent);
+            }
+        });
+
+        Button allButton, freeButton, busyButton;
+
+        freeButton = (Button)findViewById(R.id.freeButton);
+        freeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ALL.setVisibility(View.GONE);
+                BUSY.setVisibility(View.GONE);
+                FREE.setVisibility(View.VISIBLE);
+            }
+        });
+
+        busyButton = (Button)findViewById(R.id.busyButton);
+        busyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ALL.setVisibility(View.GONE);
+                FREE.setVisibility(View.GONE);
+                BUSY.setVisibility(View.VISIBLE);
+            }
+        });
+
+        allButton = (Button)findViewById(R.id.allButton);
+        allButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BUSY.setVisibility(View.GONE);
+                FREE.setVisibility(View.GONE);
+                ALL.setVisibility(View.VISIBLE);
             }
         });
     }
