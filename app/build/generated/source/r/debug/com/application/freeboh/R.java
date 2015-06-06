@@ -1526,6 +1526,7 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f02003b;
     }
     public static final class id {
+        public static final int DisplayNameText=0x7f0c0078;
         public static final int LoginLogo=0x7f0c0066;
         public static final int Loginbutton=0x7f0c0069;
         public static final int PasswordText=0x7f0c0068;
@@ -1546,7 +1547,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c003d;
         public static final int action_mode_bar_stub=0x7f0c003c;
         public static final int action_mode_close_button=0x7f0c0025;
-        public static final int action_settings=0x7f0c007b;
+        public static final int action_settings=0x7f0c007c;
         public static final int activity_chooser_view_content=0x7f0c0026;
         public static final int alertTitle=0x7f0c0030;
         public static final int always=0x7f0c0016;
@@ -1581,9 +1582,9 @@ containing a value of this type.
         public static final int image=0x7f0c0028;
         public static final int imageButton=0x7f0c0054;
         public static final int imageButton10=0x7f0c0065;
-        public static final int imageButton11=0x7f0c0078;
-        public static final int imageButton12=0x7f0c0079;
-        public static final int imageButton13=0x7f0c007a;
+        public static final int imageButton11=0x7f0c0079;
+        public static final int imageButton12=0x7f0c007a;
+        public static final int imageButton13=0x7f0c007b;
         public static final int imageButton2=0x7f0c0056;
         public static final int imageButton3=0x7f0c0057;
         public static final int imageButton4=0x7f0c0058;
@@ -1695,11 +1696,12 @@ containing a value of this type.
         public static final int notification_template_media=0x7f040021;
         public static final int notification_template_part_chronometer=0x7f040022;
         public static final int notification_template_part_time=0x7f040023;
-        public static final int select_dialog_item_material=0x7f040024;
-        public static final int select_dialog_multichoice_material=0x7f040025;
-        public static final int select_dialog_singlechoice_material=0x7f040026;
-        public static final int settings=0x7f040027;
-        public static final int support_simple_spinner_dropdown_item=0x7f040028;
+        public static final int register_screen=0x7f040024;
+        public static final int select_dialog_item_material=0x7f040025;
+        public static final int select_dialog_multichoice_material=0x7f040026;
+        public static final int select_dialog_singlechoice_material=0x7f040027;
+        public static final int settings=0x7f040028;
+        public static final int support_simple_spinner_dropdown_item=0x7f040029;
     }
     public static final class menu {
         public static final int menu_main=0x7f0d0000;

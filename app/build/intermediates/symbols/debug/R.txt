@@ -409,6 +409,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020038
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020039
 int drawable abc_textfield_search_material 0x7f02003a
 int drawable notification_template_icon_bg 0x7f02003b
+int id DisplayNameText 0x7f0c0078
 int id LoginLogo 0x7f0c0066
 int id Loginbutton 0x7f0c0069
 int id PasswordText 0x7f0c0068
@@ -429,7 +430,7 @@ int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c003d
 int id action_mode_bar_stub 0x7f0c003c
 int id action_mode_close_button 0x7f0c0025
-int id action_settings 0x7f0c007b
+int id action_settings 0x7f0c007c
 int id activity_chooser_view_content 0x7f0c0026
 int id alertTitle 0x7f0c0030
 int id always 0x7f0c0016
@@ -464,9 +465,9 @@ int id ifRoom 0x7f0c0018
 int id image 0x7f0c0028
 int id imageButton 0x7f0c0054
 int id imageButton10 0x7f0c0065
-int id imageButton11 0x7f0c0078
-int id imageButton12 0x7f0c0079
-int id imageButton13 0x7f0c007a
+int id imageButton11 0x7f0c0079
+int id imageButton12 0x7f0c007a
+int id imageButton13 0x7f0c007b
 int id imageButton2 0x7f0c0056
 int id imageButton3 0x7f0c0057
 int id imageButton4 0x7f0c0058
@@ -574,11 +575,12 @@ int layout notification_template_lines 0x7f040020
 int layout notification_template_media 0x7f040021
 int layout notification_template_part_chronometer 0x7f040022
 int layout notification_template_part_time 0x7f040023
-int layout select_dialog_item_material 0x7f040024
-int layout select_dialog_multichoice_material 0x7f040025
-int layout select_dialog_singlechoice_material 0x7f040026
-int layout settings 0x7f040027
-int layout support_simple_spinner_dropdown_item 0x7f040028
+int layout register_screen 0x7f040024
+int layout select_dialog_item_material 0x7f040025
+int layout select_dialog_multichoice_material 0x7f040026
+int layout select_dialog_singlechoice_material 0x7f040027
+int layout settings 0x7f040028
+int layout support_simple_spinner_dropdown_item 0x7f040029
 int menu menu_main 0x7f0d0000
 int mipmap allfree 0x7f030000
 int mipmap busy 0x7f030001
