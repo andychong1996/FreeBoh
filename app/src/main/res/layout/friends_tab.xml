@@ -83,11 +83,10 @@
 
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="348dp"
+        android:layout_height="333dp"
         android:layout_gravity="center_horizontal"
         android:columnCount="3"
-        android:rowCount="1"
-        android:layout_weight="0.25">
+        android:rowCount="1">
 
         <LinearLayout
             android:orientation="vertical"
@@ -148,4 +147,41 @@
                 android:id="@+id/textView4" />
         </LinearLayout>
     </GridLayout>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:background="#ffff9800" >
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton8"
+            android:background="#ffff9800"
+            android:src="@mipmap/my_tab_ico"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton9"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="#ffff5e00"
+            android:src="@mipmap/friends_tab_ico" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton10"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@mipmap/settings_tab_ico"
+            android:background="#ffff9809" />
+    </GridLayout>
+
 </LinearLayout>
