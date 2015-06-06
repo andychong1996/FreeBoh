@@ -1,0 +1,33 @@
+Login and Registration:
+- Use Array List to store registration information
+- Ask for phone number instead of email during registration
+- Login by matching input with Strings in Array List
+- Prompt user to upload image if there is no profile picture set after logging in
+
+My Tab:
+- Make toggle button
+- "is now free / busy" changes according to current slot
+- Use buttons for slots to change between free and busy
+- Add date
+- Add arrow on right side that can navigate up to seven days
+- Click image to upload new profile picture
+
+Your Tab:
+- Put in five more friends
+- Make search bar work
+- Make add friend work
+- Make sort work
+
+Settings Tab:
+- Add team name
+- Add credits
+- Add event name
+- Add date of creation
+
+New Screens:
+- Upload / change profile picture
+- Six days of slots
+- Search results from Search or Add Friend (Arrow on left side that leads back to Your Tab) (Click profile picture to add)
+
+Others:
+- Tidy up GUI
