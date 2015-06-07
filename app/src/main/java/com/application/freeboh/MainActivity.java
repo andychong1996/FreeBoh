@@ -8,48 +8,61 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_screen);
 
-        Button loginButton, registerButton;
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.login_screen);
 
         final Context context = this;
 
+//         String Username= ((EditText)findViewById(R.id.UsernameText)).getText().toString();
+//         String Password=((EditText)findViewById(R.id.DisplayNameText)).getText().toString();
+         //String parsedUsername= Register.getUsername();
+       // String parsedPassword= Register.getPassword();
+
+
+        Button loginButton, registerButton;
+
         loginButton = (Button)findViewById(R.id.loginButton);
+        registerButton = (Button)findViewById(R.id.registerButton);
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, MyTab.class);
-                MainActivity.this.startActivity(intent);
+                String Username= ((EditText)findViewById(R.id.UsernameText)).getText().toString();
+                String Password=((EditText)findViewById(R.id.PasswordText)).getText().toString();
+                String parsedUsername= getIntent().getStringExtra("parsedUsername");
+                String parsedPassword= getIntent().getStringExtra("parsedPassword");
+                if(!Username.equals(parsedUsername)&& !Password.equals(parsedPassword)){
+
+                    Toast.makeText(context, "Username or Password doesn't match! Please Try Again", Toast.LENGTH_LONG).show();
+
+                }else {
+
+                    Intent intent = new Intent(context, MyTab.class);
+
+                    startActivity(intent);
+                }
             }
         });
 
-        registerButton = (Button)findViewById(R.id.registerButton);
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent = new Intent(context, Register.class);
                 startActivity(intent);
             }
         });
-
-        // adding slot toggle functionality
-        ImageButton[] slots = {
-                (ImageButton)findViewById(R.id.curSlot),
-                (ImageButton)findViewById(R.id.slot1),
-                (ImageButton)findViewById(R.id.slot2),
-                (ImageButton)findViewById(R.id.slot3)
-        };
-
-        
-
 
     }
 

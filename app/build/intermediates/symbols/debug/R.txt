@@ -428,7 +428,7 @@ int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c003d
 int id action_mode_bar_stub 0x7f0c003c
 int id action_mode_close_button 0x7f0c0025
-int id action_settings 0x7f0c00ac
+int id action_settings 0x7f0c00ad
 int id activity_chooser_view_content 0x7f0c0026
 int id addFriendBar 0x7f0c0062
 int id alertTitle 0x7f0c0030
@@ -441,6 +441,7 @@ int id cancel_action 0x7f0c009c
 int id checkbox 0x7f0c0038
 int id chronometer 0x7f0c00a2
 int id collapseActionView 0x7f0c0017
+int id confirmPWText 0x7f0c00aa
 int id contentPanel 0x7f0c0031
 int id curSlot 0x7f0c0058
 int id custom 0x7f0c0035
@@ -453,8 +454,6 @@ int id displayAll 0x7f0c006f
 int id displayBusy 0x7f0c008b
 int id displayFree 0x7f0c0066
 int id dropdown 0x7f0c001c
-int id editText 0x7f0c00a9
-int id editText2 0x7f0c00aa
 int id edit_query 0x7f0c0042
 int id end 0x7f0c0014
 int id end_padder 0x7f0c00a7
@@ -512,6 +511,7 @@ int id never 0x7f0c0019
 int id none 0x7f0c000e
 int id normal 0x7f0c000a
 int id parentPanel 0x7f0c002d
+int id phoneNumberText 0x7f0c00a9
 int id progress_circular 0x7f0c0005
 int id progress_horizontal 0x7f0c0006
 int id radio 0x7f0c003a
@@ -577,6 +577,7 @@ int id title 0x7f0c002c
 int id title_template 0x7f0c002f
 int id topPanel 0x7f0c002e
 int id up 0x7f0c0008
+int id uploadphoto_button 0x7f0c00ac
 int id useLogo 0x7f0c0012
 int id user_status 0x7f0c0052
 int id withText 0x7f0c001a
@@ -629,6 +630,7 @@ int layout select_dialog_multichoice_material 0x7f040026
 int layout select_dialog_singlechoice_material 0x7f040027
 int layout settings 0x7f040028
 int layout support_simple_spinner_dropdown_item 0x7f040029
+int layout upload_photo_page 0x7f04002a
 int menu menu_main 0x7f0d0000
 int mipmap allbusy 0x7f030000
 int mipmap allfree 0x7f030001

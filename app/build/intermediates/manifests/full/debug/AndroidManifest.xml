@@ -26,6 +26,7 @@
         <activity android:name="com.application.freeboh.Register" />
         <activity android:name="com.application.freeboh.SettingsTab" />
         <activity android:name="com.application.freeboh.YourTab" />
+        <activity android:name="com.application.freeboh.Upload_Photo_Page" />
     </application>
 
 </manifest>

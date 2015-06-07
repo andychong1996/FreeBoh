@@ -1545,7 +1545,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c003d;
         public static final int action_mode_bar_stub=0x7f0c003c;
         public static final int action_mode_close_button=0x7f0c0025;
-        public static final int action_settings=0x7f0c00ac;
+        public static final int action_settings=0x7f0c00ad;
         public static final int activity_chooser_view_content=0x7f0c0026;
         public static final int addFriendBar=0x7f0c0062;
         public static final int alertTitle=0x7f0c0030;
@@ -1558,6 +1558,7 @@ containing a value of this type.
         public static final int checkbox=0x7f0c0038;
         public static final int chronometer=0x7f0c00a2;
         public static final int collapseActionView=0x7f0c0017;
+        public static final int confirmPWText=0x7f0c00aa;
         public static final int contentPanel=0x7f0c0031;
         public static final int curSlot=0x7f0c0058;
         public static final int custom=0x7f0c0035;
@@ -1570,8 +1571,6 @@ containing a value of this type.
         public static final int displayBusy=0x7f0c008b;
         public static final int displayFree=0x7f0c0066;
         public static final int dropdown=0x7f0c001c;
-        public static final int editText=0x7f0c00a9;
-        public static final int editText2=0x7f0c00aa;
         public static final int edit_query=0x7f0c0042;
         public static final int end=0x7f0c0014;
         public static final int end_padder=0x7f0c00a7;
@@ -1629,6 +1628,7 @@ containing a value of this type.
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c000a;
         public static final int parentPanel=0x7f0c002d;
+        public static final int phoneNumberText=0x7f0c00a9;
         public static final int progress_circular=0x7f0c0005;
         public static final int progress_horizontal=0x7f0c0006;
         public static final int radio=0x7f0c003a;
@@ -1694,6 +1694,7 @@ containing a value of this type.
         public static final int title_template=0x7f0c002f;
         public static final int topPanel=0x7f0c002e;
         public static final int up=0x7f0c0008;
+        public static final int uploadphoto_button=0x7f0c00ac;
         public static final int useLogo=0x7f0c0012;
         public static final int user_status=0x7f0c0052;
         public static final int withText=0x7f0c001a;
@@ -1750,6 +1751,7 @@ containing a value of this type.
         public static final int select_dialog_singlechoice_material=0x7f040027;
         public static final int settings=0x7f040028;
         public static final int support_simple_spinner_dropdown_item=0x7f040029;
+        public static final int upload_photo_page=0x7f04002a;
     }
     public static final class menu {
         public static final int menu_main=0x7f0d0000;

@@ -21,7 +21,8 @@
             android:layout_height="173dp"
             android:id="@+id/LoginLogo"
             android:layout_gravity="center_horizontal"
-            android:src="@mipmap/logo" />
+            android:src="@mipmap/logo"
+            android:layout_marginTop="30dp" />
 
         <LinearLayout
             android:orientation="vertical"
@@ -67,10 +68,9 @@
             <EditText
                 android:layout_width="300dp"
                 android:layout_height="30dp"
-                android:inputType="textEmailAddress"
                 android:ems="10"
-                android:id="@+id/editText"
-                android:hint="Email"
+                android:id="@+id/phoneNumberText"
+                android:hint="Phone Number"
                 android:background="#ffffffff"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
@@ -78,7 +78,8 @@
                 android:topLeftRadius="10pt"
                 android:bottomRightRadius="10pt"
                 android:bottomLeftRadius="10pt"
-                android:paddingLeft="20px"/>
+                android:paddingLeft="20px"
+                android:inputType="phone" />
 
             <EditText
                 android:layout_width="300dp"
@@ -104,7 +105,7 @@
                 android:layout_height="30dp"
                 android:inputType="textPassword"
                 android:ems="10"
-                android:id="@+id/editText2"
+                android:id="@+id/confirmPWText"
                 android:background="#ffffffff"
                 android:hint="Confirm Password"
                 android:layout_marginTop="10dp"
